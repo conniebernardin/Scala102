@@ -41,8 +41,8 @@ object Functions extends App {
     sent.trim()
   }
 
-  val a = append("Allo") // "Allo"
-  val b = append("Allo") // "Allo Allo"
+  val x = append("Allo") // "Allo"
+  val y = append("Allo") // "Allo Allo"
 
 
   //Referential transparency simply means a function's return value is based solely on the inputs
