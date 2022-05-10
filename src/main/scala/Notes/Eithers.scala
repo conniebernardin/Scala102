@@ -49,4 +49,6 @@ object Eithers extends App {
 //  }
 //
 //  println(userEitherFunction("lol", "123"))
+
+
 }
