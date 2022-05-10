@@ -27,4 +27,10 @@ object philosophy extends App {
   println(getExistential(None))
   println(getExistential(None))
   println(getExistential(Some("Just do it!")))
+
+  //Create a higher order function that accepts either of the quote functions above.
+
+
+
+
 }
