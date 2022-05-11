@@ -4,7 +4,7 @@ import scala.collection.immutable.Nil.map
 
 object MappingEithers extends App {
 
-  //The map function allows you to perform actions on the value of the right side of an either.
+ /* //The map function allows you to perform actions on the value of the right side of an either.
   Right[String, Int](3).map(number => number * 3)
 
   //If a value is a Right then the function is applied to the value.
@@ -22,5 +22,5 @@ object MappingEithers extends App {
   // and is used when the return value is itself an either.
   Right[String, Int](3).flatMap(x =>
     if(x == 3) Right[String, Int](9)
-    else Left[String, Int])
+    else Left[String, Int])*/
 }
