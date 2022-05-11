@@ -25,4 +25,16 @@ object StringtoInt extends App {
   }
 
   println(stringToIntSum(List("2", "3", "4")))
+
+
+  //Write a function that accepts an optional Int and multiplies the integer by 12, if nothing is supplied return 12
+  def intMultiply(input: Option[Int]): Int = {
+    input match {
+      case Some(number) => number * 12
+      case None => 12
+    }
+  }
+  println(intMultiply(Some(12)))
+  println(intMultiply(None))
+
 }
