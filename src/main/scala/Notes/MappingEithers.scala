@@ -14,7 +14,7 @@ object MappingEithers extends App {
   }
 
   //If it is Left then the Left is returned
-//  Left[String, Int](“Hi”).map(number => number * 3)
+  Left[String, Int]("Hi").map(number => number * 3)
 
 
 
